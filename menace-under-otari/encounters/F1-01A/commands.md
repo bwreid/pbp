@@ -11,18 +11,23 @@ Fight in the entrance to the underground.
 ```
 !bplan new "Menace F1-01A"
 !bplan add "Menace F1-01A" !i add 0 Lair -p 99
-!bplan add "Menace F1-01A" !i madd "Plague-ridden Rat" -name "R#" -n 4 -group Rats rollhp
+!bplan add "Menace F1-01A" !i madd "Plague-ridden Rat" rollhp -name "R#" -n 4 -group Rats
 ```
 
 **Map**
 
 ```
-!map -attach Lair -mapsize 8x9 -loadjson https://raw.githubusercontent.com/bwreid/pbp/main/menace-under-otari/encounters/F1-01A/map.json
-!map -t R1|G5 -t R2|G6 -t R3|H5 -t R4|H6
-!map -savebattle "Menace: F1-01A"
+!map -attach Lair -mapsize 8x11 -loadjson https://raw.githubusercontent.com/bwreid/pbp/main/menace-under-otari/encounters/F1-01A/map.json?token=GHSAT0AAAAAACKRW2RNL3QUW7L3AQLZ5M7UZK7T5XQ
+!map -t R1|G6 -t R2|G7 -t R3|H6 -t R4|H7
+!map -savebattle "Menace F1-01A"
 ```
 
 ### Loading
+
+```
+!bplan begin "Menace F1-01A"
+!map -loadbattle "Menace: F1-01A"
+```
 
 ## Monsters
 
