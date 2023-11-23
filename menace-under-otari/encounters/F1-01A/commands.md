@@ -17,7 +17,7 @@ Fight in the entrance to the underground.
 **Map**
 
 ```
-!map -attach Lair -mapsize 8x11 -loadjson https://raw.githubusercontent.com/bwreid/pbp/main/menace-under-otari/encounters/F1-01A/map.json?token=GHSAT0AAAAAACKRW2RNL3QUW7L3AQLZ5M7UZK7T5XQ
+!map -attach Lair -mapsize 8x11 -loadjson https://raw.githubusercontent.com/bwreid/pbp/main/menace-under-otari/encounters/F1-01A/map.json
 !map -t R1|G6 -t R2|G7 -t R3|H6 -t R4|H7
 !map -savebattle "Menace F1-01A"
 ```
@@ -26,7 +26,7 @@ Fight in the entrance to the underground.
 
 ```
 !bplan begin "Menace F1-01A"
-!map -loadbattle "Menace: F1-01A"
+!map -loadbattle "Menace F1-01A"
 ```
 
 ## Monsters
